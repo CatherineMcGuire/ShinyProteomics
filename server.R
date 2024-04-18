@@ -18,6 +18,7 @@ server <- function(input, output) {
       lab = rownames(data),
       x = 2, y = 5,
       title = input$plot_title,
+      xlim = c(input$x_min, input$x_max),
       labSize = 3
     )
   })
